@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en"> 
   <head>
@@ -97,7 +100,9 @@
                     </li>
                     <li><a href="contacts.html">Contacts</a>
                     </li>
-                    <li class="active"><a href="Reservation.html">Reservation</a>
+                    <li class="active"><a href="Reservation.html">Book A Tour</a>
+                    </li>
+                    <li><a href="offer.html">Our Offer</a>
                     </li>
                   </ul>
                 </div>
@@ -109,10 +114,10 @@
         <section class="breadcrumbs-custom" style="background: url(&quot;images/slideshow.jpg&quot;); background-size: cover;">
           <div class="container">
             <!-- <p class="breadcrumbs-custom-subtitle">Choose Your Style</p> -->
-            <p class="heading-1 breadcrumbs-custom-title">MAKE RESERVATION</p>
+            <p class="heading-1 breadcrumbs-custom-title">Book A Tour</p>
             <ul class="breadcrumbs-custom-path">
               <li><a href="index.html">Home</a></li>
-              <li class="active">Reservation</li>
+              <li class="active">Book A Tour</li>
             </ul>
           </div>
         </section>
@@ -138,7 +143,7 @@
                 
               </div>
               <div class="col-lg-12">
-                <form id="reservation-form" name="gs" method="submit" role="search" action="mailto:consult@colossustours.com">
+                <form id="reservation-form" name="gs" action="sendMail.php" method="POST">
                   <div class="row">
                     <div class="col-lg-12">
                       <h4>Make Your <em>Reservation</em> Through This <em>Form</em></h4>
@@ -146,23 +151,24 @@
                     <div class="col-lg-6">
                         <fieldset>
                             
-                            <input type="text" name="Name" class="Name" placeholder="Your Name" autocomplete="on" required>
+                            <input type="text" name="name" class="Name" placeholder="Your Name" autocomplete="on" required>
                         </fieldset>
                     </div>
                     <div class="col-lg-6">
                       <fieldset>
-                          <input type="text" name="Number" class="Number" placeholder="Your Phone Number" autocomplete="on" required>
+                          <input type="text" name="number" class="Number" placeholder="Your Phone Number" autocomplete="on" required>
                       </fieldset>
                     </div>
                     <div class="col-lg-6">
                         <fieldset>
-                            <select name="Guests" class="form-select" aria-label="Default select example" id="chooseGuests" onChange="this.form.click()">
+                            <!-- <select name="Guests" class="form-select" aria-label="Default select example" id="chooseGuests" onChange="this.form.click()">
                                 <option selected>Number Of Guests</option>
                                 <option type="checkbox" name="option1" value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                                 <option value="4+">4+</option>
-                            </select>
+                            </select> -->
+                            <input type="text" name="guests" placeholder="Number Of Guests" autocomplete="on" required>
                         </fieldset>
                     </div>
                     <div class="col-lg-6">
@@ -172,13 +178,16 @@
                     </div>
                     <div class="col-lg-12">
                         <fieldset>
-                            <select name="Destination" class="form-select" aria-label="Default select example" id="chooseCategory" onChange="this.form.click()">
+
+                          <input type="text" name="destination" placeholder="Your destination" autocomplete="on" required>
+
+                            <!-- <select name="Destination" class="form-select" aria-label="Default select example" id="chooseCategory" onChange="this.form.click()">
                                 <option selected>Choose Your Destination</option>
                                 <option value="Italy, Roma">Italy, Roma</option>
                                 <option value="France, Paris">France, Paris</option>
                                 <option value="Engaland, London">Engaland, London</option>
                                 <option value="Switzerland, Lausanne">Switzerland, Lausanne</option>
-                            </select>
+                            </select> -->
                         </fieldset>
                     </div>
                     <div class="col-lg-12">                        
@@ -192,17 +201,10 @@
             </div>
           </div>
         </div>
-
-
-
-
-
-
-
-
-
-
       </section>
+
+
+      
 
 
         <!-- end of reservation form -->
@@ -219,9 +221,10 @@
           </div>
           <div class="col-md-10 col-lg-7 col-xl-4 text-xl-right">
             <ul class="group-xs group-middle"> 
-              <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-facebook" href="https://facebook.com/colossustours"></a></li>
-              <!-- <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-twitter" href="#"></a></li> -->
-              <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-instagram" href="https://facebook.com/colossustours"></a></li>
+              <li><a class="icon novi-icon icon-lg-middle icon-circle icon-secondary-5-filled mdi mdi-facebook" href="https://facebook.com/colossustours"></a></li>
+               <li><a class="icon novi-icon icon-lg-middle icon-circle icon-secondary-5-filled mdi mdi-instagram" href="https://instagram.com/colossustours"></a></li>
+              <li><a class="icon novi-icon icon-lg-middle icon-circle icon-secondary-5-filled mdi mdi-twitter" href="#"></a></li>
+             
               <!-- <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-google" href="#"></a></li>
               <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-linkedin" href="#"></a></li> -->
             </ul>
@@ -238,3 +241,5 @@
 
 </body>
 </html>
+
+
