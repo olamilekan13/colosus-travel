@@ -1,7 +1,7 @@
 /** our_packages **/
 
 .our_packages {
-    border-top: #73bd24 solid 125px;
+    border-top:  #0055FF solid 125px;
 }
 
 .our_packages .titlepage {
@@ -17,7 +17,7 @@
 
 .table_form .titlepage h3 {
     padding-bottom: 10px;
-    color: #73bd24;
+    color:  #0055FF;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
@@ -91,7 +91,7 @@ label {
 }
 
 .send_btn:hover {
-    background: #73bd24;
+    background:  #0055FF;
     color: #fff;
     transition: ease-in all 0.5s;
 }
@@ -190,7 +190,7 @@ input[type="radio"]+.label-text:before {
 
 input[type="radio"]:checked+.label-text:before {
     content: "\f192";
-    color: #73bd24;
+    color:  #0055FF;
     animation: effect 250ms ease-in;
 }
 
@@ -279,7 +279,7 @@ input[type="radio"]:disabled+.label-text:before {
 }
 
 .italy_right h3 {
-    color: #70b824;
+    color:  #0055FF;
     font-size: 20px;
     line-height: 20px;
     font-weight: bold;
@@ -324,7 +324,7 @@ input[type="radio"]:disabled+.label-text:before {
 }
 
 .read_more:hover {
-    background: #73bd24;
+    background:  #0055FF;
     color: #fff;
 }
 
@@ -343,3 +343,14 @@ input[type="radio"]:disabled+.label-text:before {
 .img_responsive {
     max-width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
