@@ -14083,7 +14083,7 @@ html.tablet .ui-to-top {
 	flex-shrink: 0;
 	width: 100%;
 	background-size: cover;
-	background-position: center center;
+	/* background-position: center center; */
 }
 
 .swiper-slide:before {
